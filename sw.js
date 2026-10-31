@@ -1,5 +1,5 @@
 /* Opium service worker: works from any folder (GitHub Pages friendly). */
-var CACHE = "opium-shell-v3";
+var CACHE = "opium-shell-v6";
 var SHELL = ["./", "index.html", "config.js", "manifest.webmanifest", "icon-192.png"];
 
 self.addEventListener("install", function (e) {
